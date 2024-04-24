@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    align-self: center;
+    font-size: 32px;
+    color: white;
+}
+
+header {
+    background-color: rgb(3, 3, 173);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    padding: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+    justify-self: end;
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+.hero {
+    background-image: url(unsplash_YrtFlrLo2DQ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+    display: grid;
+    place-items: center;
+}
+
+.hero-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero-section h1 {
+    font-size: 92px;
+}
+
+.hero-section h3 {
+    color: gray;
+    font-size: 18px;
+}
+
+.hero-section p {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.music-page {
+    background-color: rgb(54, 1, 54);
+    height: 100vh;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.music h1 {
+    font-size: 62px;
+    margin-top: 60px;
+}
+
+.music h3 {
+    font-weight: 400;
+    color: gray;
+}
+
+.music p {
+    color: gray;
+    width: 60%;
+}
+
+.music a {
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.music h4 {
+    font-weight: lighter;
+    color: gray;
+}
+
+.laptop {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 15%;
+    margin-top: 90px;
+}
+
+.macbook {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 20px;
+    margin-top: 540px;
+    text-align: center;
+}
+
+.macbook p {
+    width: 60%;
+    color: gray;
+}
+
+.macbook a {
+    border: 1px solid purple;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+.macbook-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    margin-top: 160px;
+    color: white;
+    gap: 20px;
+}
+
+.video p {
+    width: 60%;
+}
+
+.video-section {
+    background-image: url(nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);
+    height: 70vh;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.video h2 {
+    margin-top: 25vh;
+}
+
+.gift-card {
+    display: flex;
+    place-items: center;
+    gap: 60px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10vh;
+}
+
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift-content button {
+    align-self: flex-start;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    margin-top: -20px;
+}
+
+.gift-content p {
+    width: 60%;
+}
+
+.gift-content h3 {
+    border-bottom: 2px solid silver;
+    width: 70%;
+}
+
+footer {
+    background-color: rgb(1, 1, 85);
+}
+
+.links {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.shop h3 {
+    border-bottom: 2px solid silver;
+    width: 140%;
+    color: white;
+}
+
+.orange {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.orange h3 {
+    border-bottom: 2px solid silver;
+    width: 140%;
+    color: white;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.education h3 {
+    border-bottom: 2px solid silver;
+    width: 140%;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.about h3 {
+    border-bottom: 2px solid silver;
+    width: 140%;
+    color: white;
+}
+
+.end {
+    background-color: rgb(2, 148, 197);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:1023px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .links h3 {
+        border-bottom: 2px solid silver;
+        width: 20%;
+        color: white;
+    }
+    .gift-card {
+      display: flex;
+      flex-direction: column;
+    }
+    .gift-content {
+        text-align: center;
+    }
+.card img{
+    width: 100%;
+}
+.gift-content p {
+    width: 100%;
+}
+.gift-content h3 {
+    border-bottom: 2px solid silver;
+    width: 95%;
+}
+.gift-content button {
+    align-self: center;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    margin-top: -20px;
+}
+.macbook-img img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.laptop img{
+    width: 100%;
+}
+.hero-section h1 {
+    font-size: 72px;
+}
+.macbook {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 20px;
+    margin-top: 410px;
+    text-align: center;
+}
+.gift-card{
+    margin-bottom: 40px;
+}
+}
+@media screen and (max-width:767px) {
+    .container ul {
+        display: none;
+    }
+    .macbook {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 20px;
+        margin-top: 200px;
+        text-align: center;
+    }
+}
+@media (max-width:2560px) and (min-width:1755px){
+    .laptop img{
+        width: 100%;
+    }
+}
